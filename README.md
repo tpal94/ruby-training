@@ -1,2 +1,0 @@
-# ruby-training
-Ruby Training 
