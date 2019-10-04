@@ -3,32 +3,32 @@ require_relative 'collatz_conjecture'
 
 class CollatzConjectureTest < Minitest::Test
   def test_zero_steps_for_one
-    # skip
-    assert_equal 0, CollatzConjecture.steps(1)
+    collatz = CollatzConjecture.new(1)
+    assert_equal 0, collatz.steps()
   end
 
   def test_divide_if_even
-    # skip
-    assert_equal 4, CollatzConjecture.steps(16)
+    collatz = CollatzConjecture.new(20)
+    assert_equal 7, collatz.steps()
   end
 
   def test_even_and_odd_steps
-    # skip
-    assert_equal 9, CollatzConjecture.steps(12)
+    collatz = CollatzConjecture.new(12)
+    assert_equal 9, collatz.steps()
   end
 
   def test_large_number_of_even_and_odd_steps
-    # skip
-    assert_equal 152, CollatzConjecture.steps(1_000_000)
+    collatz = CollatzConjecture.new(1_000_000)
+    assert_equal 152, collatz.steps()
   end
 
   def test_zero_is_an_error
-    # skip
-    assert_equal "Enter a positive number.", CollatzConjecture.steps(0)
+    collatz = CollatzConjecture.new(0)
+    assert_equal "Enter a positive number.", collatz.steps()
   end
 
   def test_negative_value_is_an_error
-    # skip
-    assert_equal "Enter a positive number.", CollatzConjecture.steps(-15)
+    collatz = CollatzConjecture.new(-15)
+    assert_equal "Enter a positive number.", collatz.steps()
   end
 end
