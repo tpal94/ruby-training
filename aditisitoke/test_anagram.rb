@@ -12,7 +12,6 @@ class TestAnagram < Minitest::Test
 # end
 
 def test_detects_anagram
-        skip
         detector = Anagram.new('listen')
         anagrams = detector.match(["enlists", "google", "inlets", "banana"])
         expected = ["inlets"]
@@ -20,7 +19,6 @@ def test_detects_anagram
 end
 
 def test_detects_two_anagrams
-    skip
     detector = Anagram.new('master')
     anagrams = detector.match(["stream", "pigeon", "maters"])
     expected = ["maters", "stream"]
