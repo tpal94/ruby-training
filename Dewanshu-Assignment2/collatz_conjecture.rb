@@ -1,16 +1,19 @@
-module CollatzConjecture
-    def self.steps(n, count = 0)
-        if(n<=0)
+class CollatzConjecture
+    def initialize(n)
+        @num=n;
+    end
+    def steps(count = 0)
+        if(@num<=0)
             return "Enter a positive number.";
         else
-            while(n>0)
-                if(n==1)
+            while(@num>0)
+                if(@num==1)
                     break;
-                elsif(n%2==0)
-                    n=n/2;
+                elsif(@num%2==0)
+                    @num=@num/2;
                     count = count+1;
                 else
-                    n=3*n+1;
+                    @num=3*@num+1;
                     count = count+1;
                 end
             end
