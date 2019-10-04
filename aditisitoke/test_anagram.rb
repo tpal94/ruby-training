@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>ruby-training/anagram.rb at aditisitoke · aditi-diaspark/ruby-training</title>
+  <title>ruby-training/test_anagram.rb at aditisitoke · aditi-diaspark/ruby-training</title>
     <meta name="description" content="Ruby Training . Contribute to aditi-diaspark/ruby-training development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,9 +38,9 @@
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/51989129?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="aditi-diaspark/ruby-training" /><meta property="og:url" content="https://github.com/aditi-diaspark/ruby-training" /><meta property="og:description" content="Ruby Training . Contribute to aditi-diaspark/ruby-training development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDQ5ODg2MDY3OjAxMWNiZWY5OTZhZjQxYmZlYTRlOTAxMmNlNzk0ODBiMzY5MTRiYjAzNGQ4NzQ0ZGYxNGE0YzBhMjExYmM2NWU=--a1fc46d23ef64356073ff33bdc723462def40e89">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDQ5ODg2MDY3OmZiOWFjNGJlNjI5Y2Q1ZjEwODcwYjY3YWY2MDI2MjRlOGVlYWQzNWE2ZTg1NDlhNzljOTUwZjBkYWNkNGEwYmQ=--ea45fd18bdb5b2682e0e2871d6709bb3064829ea">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="C53A:3BF0:3512D0:4A5630:5D96E114" data-pjax-transient>
+  <meta name="request-id" content="C53A:3BF0:351455:4A5832:5D96E11A" data-pjax-transient>
 
 
   
@@ -51,7 +51,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C53A:3BF0:3512D0:4A5630:5D96E114" /><meta name="octolytics-dimension-region_edge" content="ap-south-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="1219438545155970302" /><meta name="octolytics-actor-id" content="51989129" /><meta name="octolytics-actor-login" content="aditi-diaspark" /><meta name="octolytics-actor-hash" content="8aeb207faafd6a24d77e395bf213562aee190aff31e47c25caf5a63d3b08bd25" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C53A:3BF0:351455:4A5832:5D96E11A" /><meta name="octolytics-dimension-region_edge" content="ap-south-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="1219438545155970302" /><meta name="octolytics-actor-id" content="51989129" /><meta name="octolytics-actor-login" content="aditi-diaspark" /><meta name="octolytics-actor-hash" content="8aeb207faafd6a24d77e395bf213562aee190aff31e47c25caf5a63d3b08bd25" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="aditi-diaspark">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NTQxZDM2NWZjODBiNGIzMjBhNjliZGNiMjViYmZhYmE5Zjk5YzVhZTMyMWJkODgwNDY4N2ZkZGQ2MDg3NTk5Znx7InJlbW90ZV9hZGRyZXNzIjoiMTQuMTQyLjE1NS45NCIsInJlcXVlc3RfaWQiOiJDNTNBOjNCRjA6MzUxMkQwOjRBNTYzMDo1RDk2RTExNCIsInRpbWVzdGFtcCI6MTU3MDE2OTExNCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="MDM5YWQzODYzYTNmOWExYzM1MTI3NmIyOWEzMDAyZDkwNTFkOWJlNGE2ZDFjMzdjNTE2ZTY4YzlkZDUwY2U5OXx7InJlbW90ZV9hZGRyZXNzIjoiMTQuMTQyLjE1NS45NCIsInJlcXVlc3RfaWQiOiJDNTNBOjNCRjA6MzUxNDU1OjRBNTgzMjo1RDk2RTExQSIsInRpbWVzdGFtcCI6MTU3MDE2OTEyNSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="51989129" /><meta name="octolytics-dimension-user_login" content="aditi-diaspark" /><meta name="octolytics-dimension-repository_id" content="211340624" /><meta name="octolytics-dimension-repository_nwo" content="aditi-diaspark/ruby-training" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="211252223" /><meta name="octolytics-dimension-repository_parent_nwo" content="tpal94/ruby-training" /><meta name="octolytics-dimension-repository_network_root_id" content="211252223" /><meta name="octolytics-dimension-repository_network_root_nwo" content="tpal94/ruby-training" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/anagram.rb" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/test_anagram.rb" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -160,7 +160,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=KxQ8hryscRxiTfrvpnMtxt24KFwAn+7gRIYQPt+bbUbsU05tdVeBc0yi9NFYx6rDlbNSXeizHi38jfUCUrWyQA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=qWsQNbBHZU/hat8w13ypa/4V46K0SwrOHCNVMxOFNp5uLGLeebyVIM+F0Q4pyC5uth6Zo1xn+gOkKLAPnqvpmA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -313,7 +313,7 @@
       <img class="avatar" height="20" width="20" alt="@aditi-diaspark" src="https://avatars2.githubusercontent.com/u/51989129?s=60&amp;v=4" />
       aditi-diaspark
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hCt+S2vAItTwXS2DDO0ytWqAJ7Oa4N0llkpf+r+rE31FaeDR9q59l54Ho+vn4+ZybydRaDka23nSsAwiTkGDxA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+p1hM7JSgy3lbwa2A+9WmeIaMSWL7XAOxHaS5ICGzr473/+pLzzcbos1iN7o4YJe571H/igXdlKAjME8cWxeBw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -400,7 +400,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:51989129,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51989129,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:3512D0:4A5630:5D96E114&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;}}" data-hydro-click-hmac="b3b0dcbfb4e9ce95dc646915ca011f02e3ca96c05ddf416f07b98cee6190518d">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:51989129,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51989129,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:351455:4A5832:5D96E11A&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/test_anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;}}" data-hydro-click-hmac="d5a5b2e2a5b975e647c2ff1647e87d20a9b8e7e569792d272e42616b8b679af1">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -427,7 +427,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="SaNSMWHGBWqF6FyOBZucbAekJLtgeR1pmZ7dyxuMN2SCwgMROQ/DEbuU4onPwNP+Y65S7NntHo4YMkjlmMFmDQ==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="xEuDaG1wtmxBMmbDjBd4KWaGpX9eppWPF0Dp9x2E/7cPKtJINblwF39O2MRGTDe7AozTKOcylmiW7HzZnsmu3g==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -547,17 +547,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-10-04T12:05:14+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-10-04T12:05:25+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-10-04T12:35:14+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-10-04T12:35:25+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-10-04T15:35:14+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-10-04T15:35:25+05:30">
             in 4 hours
           </button>
         </li>
@@ -608,7 +608,7 @@
     <div role="none" class="dropdown-divider"></div>
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IYXDWksHnhUTs48u9wR9udxNPv7mbn3g9jbSeTH3uH/gx13A1mnBVn3pAUYcCql+2epIJUWUe7yyzIGhwB0oxg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bstr4B4pGv+1hiAGNjcaiRrogZoBG4EZvr2qGgdift+vifV6g0dFvNvcrm7dOc5OH0/3QaLhh0X6R/nC9ojuZg==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
@@ -660,10 +660,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wc3BYlVaMIeX8145msRkanjz1FoeAzvUUaP2wKNyTK9GA2pBqKsIk2hgy698vdDqiCU4oFXe95Bub5xTt85lzA==" />      <input type="hidden" name="repository_id" value="211340624">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3hVk4ApE9CIqLF/QPWni4XNHRszHFTMX4rLNtSPWXBFZ28/D97XMNtW/ykbbEFZhg5GqNozI/1PdfqcmN2p1cg==" />      <input type="hidden" name="repository_id" value="211340624">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:3512D0:4A5630:5D96E114&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="d0918a758c40d5b2bcbd6630264eea0aa8d5019198e8c1262f27dc12d2ae5175" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:351455:4A5832:5D96E11A&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/test_anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="ea7b97baf46d3d88d9dec182be372c7bc55d31ad294dfbae15c86ddfb890b942" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -734,18 +734,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/aditi-diaspark/ruby-training/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gMOYV9w/iFquzhjmFYnsJgh7amQNnSHWY2i1q7OiQRTMfmpyS5Nraaoi9W9l52TOcqR8k4gdRajF7Y9EIf2NUw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/aditi-diaspark/ruby-training/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mPMyCam0fCGoh35A8ByqCq5FA4xF28cqEkLxrp0J8Z7UTsAsPhifEqxrk8mAciLi1JoVe8Bbo1S0x8tBD1Y92Q==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar aditi-diaspark/ruby-training" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:3512D0:4A5630:5D96E114&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="f5424e1d6a51c6f58992d858429716d788d55a0ba68b6a2ee192b3bd99c0d129" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar aditi-diaspark/ruby-training" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:351455:4A5832:5D96E11A&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/test_anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="72137b04f2298868fe375676dafddd5705a6d4fba439c4c5398d8d85a6768300" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/aditi-diaspark/ruby-training/stargazers"
            aria-label="0 users starred this repository">
            0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/aditi-diaspark/ruby-training/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jS1iVLfDgOK8ox2/4WxyYZS0iya1y12PyJjvqZ/6TaWGGaefR7KkKngWEKCPiBUHK3hcwRfM5ZiMV0Wvnj4i4w==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/aditi-diaspark/ruby-training/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="w0JbpdDPRVusm646nrDgGC8dYZ32u9EpxNs7ueSDoxLIdp5uIL5hk2guoyXwVId+kNG2elS8aT6AFJG/5UfMVA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star aditi-diaspark/ruby-training" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:3512D0:4A5630:5D96E114&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="f627ccfe799636d8ed309f07256def8dd74684cb187bfb728f810963f65318b3" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star aditi-diaspark/ruby-training" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:351455:4A5832:5D96E11A&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/test_anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="1cc9c4e11bc15372d429b78329e893a9620aeb3f7e393f9361e3d1d05e8ef2db" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/aditi-diaspark/ruby-training/stargazers"
            aria-label="0 users starred this repository">
@@ -757,7 +757,7 @@
 
   <li>
           <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left">
-            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:3512D0:4A5630:5D96E114&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="7bddcf253462d43b52e37c266cd6123918d5c0eb203be81a73adb768dc1ced68" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of aditi-diaspark/ruby-training to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:211340624,&quot;client_id&quot;:&quot;283922661.1567675646&quot;,&quot;originating_request_id&quot;:&quot;C53A:3BF0:351455:4A5832:5D96E11A&quot;,&quot;originating_url&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/blob/aditisitoke/aditisitoke/test_anagram.rb&quot;,&quot;referrer&quot;:&quot;https://github.com/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke&quot;,&quot;user_id&quot;:51989129}}" data-hydro-click-hmac="82a7f37c85ef73698356f8ecce6c434a51c2e383de12799d5c6533283be6a29a" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of aditi-diaspark/ruby-training to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </summary>            <details-dialog
               class="anim-fade-in fast Box Box--overlay d-flex flex-column"
@@ -901,9 +901,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/aditi-diaspark/ruby-training/blob/6f2fa5393f5c6f7076f83c96ebeedc4c71d988ba/aditisitoke/anagram.rb">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/aditi-diaspark/ruby-training/blob/6f2fa5393f5c6f7076f83c96ebeedc4c71d988ba/aditisitoke/test_anagram.rb">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:76168f1349878a5c54a26a7648644d34 -->
+    <!-- blob contrib key: blob_contributors:v21:7e1bb95b3c920654bcca57ab0585db31 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
@@ -917,7 +917,7 @@
     <span class="css-truncate-target" data-menu-button>aditisitoke</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/aditi-diaspark/ruby-training/ref-list/aditisitoke/aditisitoke/anagram.rb?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/aditi-diaspark/ruby-training/ref-list/aditisitoke/aditisitoke/test_anagram.rb?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -931,13 +931,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="aditisitoke/anagram.rb" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="aditisitoke/test_anagram.rb" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/aditi-diaspark/ruby-training/tree/aditisitoke"><span>ruby-training</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke"><span>aditisitoke</span></a></span><span class="separator">/</span><strong class="final-path">anagram.rb</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/aditi-diaspark/ruby-training/tree/aditisitoke"><span>ruby-training</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/aditi-diaspark/ruby-training/tree/aditisitoke/aditisitoke"><span>aditisitoke</span></a></span><span class="separator">/</span><strong class="final-path">test_anagram.rb</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -947,7 +947,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="aditisitoke/anagram.rb" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="aditisitoke/test_anagram.rb" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -955,7 +955,7 @@
 
 
 
-    <include-fragment src="/aditi-diaspark/ruby-training/contributors/aditisitoke/aditisitoke/anagram.rb" class="Box Box--condensed commit-loader">
+    <include-fragment src="/aditi-diaspark/ruby-training/contributors/aditisitoke/aditisitoke/test_anagram.rb" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -974,17 +974,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-      45 lines (29 sloc)
+      33 lines (25 sloc)
       <span class="file-info-divider"></span>
-    593 Bytes
+    813 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/aditi-diaspark/ruby-training/raw/aditisitoke/aditisitoke/anagram.rb">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/aditi-diaspark/ruby-training/blame/aditisitoke/aditisitoke/anagram.rb">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/aditi-diaspark/ruby-training/commits/aditisitoke/aditisitoke/anagram.rb">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/aditi-diaspark/ruby-training/raw/aditisitoke/aditisitoke/test_anagram.rb">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/aditi-diaspark/ruby-training/blame/aditisitoke/aditisitoke/test_anagram.rb">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/aditi-diaspark/ruby-training/commits/aditisitoke/aditisitoke/test_anagram.rb">History</a>
     </div>
 
 
@@ -996,13 +996,13 @@
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/aditi-diaspark/ruby-training/edit/aditisitoke/aditisitoke/anagram.rb" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+P1OuyvjiJC7ik8HZVbPzEhvd+HuP8AxwMdH63+nbOsnFlF8dobtxwDiJ/BnpNS6NwTgXuOODWBDP19dEcwwUQ==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/aditi-diaspark/ruby-training/edit/aditisitoke/aditisitoke/test_anagram.rb" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PAuQ6mg5yGemFjiyhziuDRoatwIT1kRFx55wrXTuDlDOlai1c0uV65+3fPt8aR7ZHjcRVmzWUSpXY4fLY+LsEQ==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/aditi-diaspark/ruby-training/delete/aditisitoke/aditisitoke/anagram.rb" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="A/yR5HKdIWvL3KvXXIV7FHHzxZI7X40WuXRZCB+VY6CPFhoHsbzgNm67kx7KIuSoRnDLuonEGyIX+nPO+mWtEw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/aditi-diaspark/ruby-training/delete/aditisitoke/aditisitoke/test_anagram.rb" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LzHPn+UyLg5Q8YgarAdz/HaFfuS9hcjwPg/cG9anAmEBomtsjeylo3MdlbpsV+kISm5+yoj1WBVimThUnvAOPA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1021,193 +1021,138 @@
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">Anagram</span></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">require_relative</span> <span class="pl-s"><span class="pl-pds">&#39;</span>anagram<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">require</span> <span class="pl-s"><span class="pl-pds">&#39;</span>minitest/autorun<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">puts</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Enter a string !!<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">@@my_string</span> <span class="pl-k">=</span> <span class="pl-c1">gets</span>.<span class="pl-c1">chomp</span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">TestAnagram<span class="pl-e"> &lt; Minitest::Test</span></span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">@@my_string</span>.split</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">@@x</span> <span class="pl-k">=</span> <span class="pl-c1">Array</span>.<span class="pl-k">new</span>(<span class="pl-c1">4</span>)</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> def test_no_matches</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>         # skip</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>         detector = Anagram.new(&#39;diaper&#39;)</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">match</span></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>         anagrams = detector.match([&quot;hello&quot;, &quot;world&quot;, &quot;zombies&quot;, &quot;pants&quot;])</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>         expected = []</span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">for</span> a <span class="pl-k">in</span> <span class="pl-c1">0</span>..<span class="pl-c1">3</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>         assert_equal expected, anagrams</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> end</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">puts</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Enter the word you want to check for anagram !!<span class="pl-pds">&quot;</span></span></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">@@x</span> <span class="pl-k">=</span> <span class="pl-c1">gets</span>.<span class="pl-c1">chomp</span></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">test_detects_anagram</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    </td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">        skip</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">        detector <span class="pl-k">=</span> <span class="pl-c1">Anagram</span>.<span class="pl-k">new</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>listen<span class="pl-pds">&#39;</span></span>)</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">i<span class="pl-k">=</span><span class="pl-c1">0</span>;</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">        anagrams <span class="pl-k">=</span> detector.match([<span class="pl-s"><span class="pl-pds">&quot;</span>enlists<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>google<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>inlets<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>banana<span class="pl-pds">&quot;</span></span>])</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">counter <span class="pl-k">=</span> <span class="pl-c1">0</span>;</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">        expected <span class="pl-k">=</span> [<span class="pl-s"><span class="pl-pds">&quot;</span>inlets<span class="pl-pds">&quot;</span></span>]</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        assert_equal expected, anagrams</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span>(<span class="pl-smi">@@x</span>.length <span class="pl-k">==</span> <span class="pl-smi">@@my_string</span>.length)</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-k">while</span> (i<span class="pl-k">&lt;</span><span class="pl-smi">@@my_string</span>.length) </td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">   <span class="pl-k">if</span> (<span class="pl-smi">@@x</span>.include?<span class="pl-smi">@@my_string</span>[i])</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">test_detects_two_anagrams</span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">    counter <span class="pl-k">=</span> counter<span class="pl-k">+</span><span class="pl-c1">1</span>;</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">    skip</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">   <span class="pl-k">end</span></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">    detector <span class="pl-k">=</span> <span class="pl-c1">Anagram</span>.<span class="pl-k">new</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>master<span class="pl-pds">&#39;</span></span>)</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">    i<span class="pl-k">=</span> i<span class="pl-k">+</span><span class="pl-c1">1</span>;</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">    anagrams <span class="pl-k">=</span> detector.match([<span class="pl-s"><span class="pl-pds">&quot;</span>stream<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>pigeon<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>maters<span class="pl-pds">&quot;</span></span>])</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">    expected <span class="pl-k">=</span> [<span class="pl-s"><span class="pl-pds">&quot;</span>maters<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>stream<span class="pl-pds">&quot;</span></span>]</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    assert_equal expected, anagrams.sort</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">end</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> (counter <span class="pl-k">==</span> <span class="pl-smi">@@my_string</span>.length)</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">puts</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pse">#{</span><span class="pl-s1"><span class="pl-smi">@@x</span></span><span class="pl-pse">}</span> is an anagram of <span class="pl-pse">#{</span><span class="pl-s1"><span class="pl-smi">@@my_string</span></span><span class="pl-pse">}</span><span class="pl-pds">&quot;</span></span>;</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-k">else</span></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">puts</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pse">#{</span><span class="pl-s1"><span class="pl-smi">@@x</span></span><span class="pl-pse">}</span> is not an anagram of <span class="pl-pse">#{</span><span class="pl-s1"><span class="pl-smi">@@my_string</span></span><span class="pl-pse">}</span><span class="pl-pds">&quot;</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span> <span class="pl-c"><span class="pl-c">#</span>for end</span></td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">object <span class="pl-k">=</span> <span class="pl-c1">Anagram</span>.<span class="pl-k">new</span></td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">object.match</td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-k">end</span></td>
       </tr>
 </table>
 
@@ -1227,7 +1172,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/aditi-diaspark/ruby-training/blame/6f2fa5393f5c6f7076f83c96ebeedc4c71d988ba/aditisitoke/anagram.rb">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/aditi-diaspark/ruby-training/blame/6f2fa5393f5c6f7076f83c96ebeedc4c71d988ba/aditisitoke/test_anagram.rb">View git blame</a></li>
       </ul>
     </details-menu>
   </details>
@@ -1262,7 +1207,7 @@
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.38328s from unicorn-787d78486d-t8wp9">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.39005s from unicorn-787d78486d-qz25q">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
