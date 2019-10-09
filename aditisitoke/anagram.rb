@@ -1,42 +1,25 @@
 class Anagram
-
-puts Enter a string !!
-@@my_string = gets.chomp
-@@my_string.split
-@@x = Array.new(4)
-
-
-def match
-
-for a in 0..3
-
-puts Enter the word you want to check for anagram !!
-@@x = gets.chomp
-    
-
-i=0;
-counter = 0;
-
-if(@@x.length == @@my_string.length)
-while (i@@my_string.length) 
-   if (@@x.include@@my_string[i])
-    counter = counter+1;
-   end
-    i= i+1;
-end
-end
-
-if (counter == @@my_string.length)
-    puts #{@@x} is an anagram of #{@@my_string};
-else
-    puts #{@@x} is not an anagram of #{@@my_string};
-end
-
-end #for end
-
-end
-
-end
-
-object = Anagram.new
-object.match
+    attr_accessor :x,:my_string
+      def initialize(x , my_string)
+      @x = x
+      @my_string = my_string
+      end
+     
+      def match
+      if (my_string.downcase.chars.sort == x.downcase.chars.sort && my_string.length == x.length)
+          puts "#{x} is an anagram"
+      else
+          puts "#{x} is not an anagram"
+      end
+      end
+  end
+  puts "Enter a string !!"
+  my_string = gets.chomp
+  
+      for a in 0..3
+      puts "Enter the word you want to check for anagram !!"
+      x = gets.chomp
+      object = Anagram.new(x,my_string)
+     
+      object.match
+      end
