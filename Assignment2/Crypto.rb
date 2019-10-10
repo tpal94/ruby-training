@@ -118,11 +118,17 @@ while z >= 0
  z=z-1
  m = 1; 
  end
+ #sum of first two number equal to third return true 
+ if (val3 == (val1 + val2)) 
+     return 1; 
+ return 0; 
+ 
 end
+end 
 end
 puts "Enter Strings"
 s1=gets.chomp 
 s2=gets.chomp 
 s3=gets.chomp 
 crypto=Crypto.new
-crypto.solveCryptoGraphic(s1,s2,s3)
+puts crypto.solveCryptoGraphic(s1,s2,s3)
