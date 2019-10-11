@@ -35,7 +35,7 @@ class App
     
     html_content=""
     profile_img= " "
-    for i in 0..(data.length-1) do
+    for i in 0..(dataa.length-1) do
         puts i
         post_img=''
         if(dataa[i]["entities"].has_key?('media')) 
