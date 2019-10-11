@@ -1,28 +1,24 @@
 class Allergies
-    def initialize
-        @list = Array.new;
-        @num_list=[128,64,32,16,8,4,2,1]
-        @item_list=['cats','pollen','chocolate','tomatoes','strawberries','shellfish','peanuts','eggs']
+    def initialize(item)
+     @item=item
+     @list = Array.new;
+     @hash={cats:128,pollen:64,chocolate:32,tomatoes:16,strawberries:8,shellfish:4,peanuts:2,eggs:1}
     end
     
     def allerge_score(score)
-         #ignore non-listergen numbers
          score = score % 256
-         for i in 0 .. 7
-         if(score >=@num_list[i])
-             score=score-(@num_list[i])
-             @list.push(@item_list[i])
-               
+        @hash.each do |key, value|
+         if (score>=value) 
+         score=score-value
+         @list.push(key)
          end
-    end
-
-
-    @list.reverse()        
-    end
-    def is_allergic_to(items)
+     end
+     @list.reverse()        
+     end
+     def is_allergic_to
          allergic=false
          if (@list.each { |t|
-         if(t.to_s == items.to_s)
+         if(t.to_s == @item.to_s)
               allergic =  true 
               break;
          else
@@ -41,8 +37,7 @@ puts"Enter allergic store:"
 sc=gets.to_i
 puts"Enter Item:"
 item=gets.chomp 
-allergies=Allergies.new 
-allergies.allerge_score(sc); 
-allergies.is_allergic_to(item)
+allergies=Allergies.new(item) 
+allergies.allerge_score(sc)
+allergies.is_allergic_to
 allergies.list_of_allergies
-
