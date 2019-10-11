@@ -4,81 +4,28 @@ require 'json'
 require 'launchy'
 url = 'http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=977325ca24414ca0aa47a5a8c6e24e32'
 uri = URI(url)
-response = Net::HTTP.get(uri)
-json = JSON.parse(response)
+response = JSON.parse(Net::HTTP.get(uri))
 
-header = '<!DOCTYPE html>
-        <html lang="en">
-        <head>
-        <title>News API</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        * {
-        box-sizing: border-box;
-        }
-        body {
-        font-family: Arial, Helvetica, sans-serif;
-        }
-        /* Style the header */
-        header {
-        height: 150px;
-        background-color: #000;
-        padding: 15px;
-        text-align: center;
-        font-size: 35px;
-        color: white;
-        }
-        article {
-        float: left;
-        padding: 20px;
-        width: 100%;
-        }
-        /* Clear floats after the columns */
-        section:after {
-        content: "";
-        display: table;
-        clear: both;
-        }
-        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-        @media (max-width: 600px) {
-        nav, article {
-            width: 100%;
-            height: auto;
-        }
-        }
-        </style>
-        </head>
-        <body>
-        <header>
-        <h5>News API</h5>
-        </header>
-        <section>
-        <article>'
-        
-body = '<b>Title:</b>&nbsp;<font size="-0.7">'+json['articles'][0]['title']+'</font><br>
-        <b>Author:</b>&nbsp;<font size="-0.7"></font><br>
-        <b>Published At:</b>&nbsp;<font size="-0.7">'+json['articles'][0]['publishedAt']+'</font><br>
-        <b>Description:</b>&nbsp;<font size="-0.7">'+json['articles'][0]['description']+'</font><br>
-        <b>Url:</b>&nbsp;<font size="-0.7"><a href="'+json['articles'][0]['url']+'">Go To Url</a></font><br>
-        <b>Image:</b>&nbsp;<font size="-0.7"><a href="'+json['articles'][0]['urlToImage']+'">Image</a></font><br>
-        <b>Content:</b>&nbsp;<font size="-0.7">'+json['articles'][0]['content']+'</font><br><br><br>
-        
-        <b>Title:</b>&nbsp;<font size="-0.7">'+json['articles'][1]['title']+'</font><br>
-        <b>Author:</b>&nbsp;<font size="-0.7"></font><br>
-        <b>Published At:</b>&nbsp;<font size="-0.7">'+json['articles'][1]['publishedAt']+'</font><br>
-        <b>Description:</b>&nbsp;<font size="-0.7">'+json['articles'][1]['description']+'</font><br>
-        <b>Url:</b>&nbsp;<font size="-0.7"><a href="'+json['articles'][1]['url']+'">Go To Url</a></font><br>
-        <b>Image:</b>&nbsp;<font size="-0.7"><a href="'+json['articles'][1]['urlToImage']+'">Image</a></font><br>
-        <b>Content:</b>&nbsp;<font size="-0.7">'+json['articles'][1]['content']+'</font><br>'
-        
+json = response['articles']
 
-footer = '</article>
-            </section>
-            </body>
-            </html>'
+        body=''
 
-data = header + body + footer;
-aFile = File.open("news.html", "w")
+        for records in json do
+
+        
+                body+='<div style="margin-top:5px; background-color: #F2F3F4;  border-style : outset ; border-width :4px ;  border-color: #ECF0F1;" >
+                <div align="center"> <b>Title:</b>&nbsp;<font size="-0.7">'+records['title'].to_s+'</font><br> </div>
+                <div align="center"> <b>Author:</b>&nbsp;<font size="-0.7">'+records['author'].to_s+'</font><br></div>
+                <div align="center"> <b>Published At:</b>&nbsp;<font size="-0.7">'+records['publishedAt'].to_s+'</font><br></div>
+                <div align="center"> <b>Description:</b>&nbsp;<font size="-0.7">'+records['description'].to_s+'</font><br></div>
+                <div align="center"> <b>Url:</b>&nbsp;<font size="-0.7"><a href="'+records['url'].to_s+'">For more detail click here</a></font><br></div>
+                <div align="center"> <b>Image:</b>&nbsp;<font size="-0.7"><a href="'+records['urlToImage'].to_s+'">Image</a></font><br></div>
+                <div align="center"> <img src="'+records['urlToImage'].to_s+' " style="width:900px;height:500px;"></div>
+                <div align="center"> <b>Content:</b>&nbsp;<font size="-0.7">'+records['content'].to_s+'</font><br><br><br></div>'
+                
+        end
+footer =    '</article>'
+data = body + footer;
+aFile = File.open("GNewsFeed.html", "w")
 aFile.syswrite(data)
-Launchy::Browser.run("../news.html")
+Launchy::Browser.run("../GNewsFeed.html")
