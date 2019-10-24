@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>Team Name</th>
+    <th>Project Name</th>
+    <th></th>
+  </tr>
+ 
+  <% @members.each do |member| %>
+    <tr>
+      <td><%= member.team_name %></td>
+      <td><%= member.project_name %></td>
+      <td><%= link_to 'Show', member_path(member) %></td>
+    </tr>
+  <% end %>
+</table>
