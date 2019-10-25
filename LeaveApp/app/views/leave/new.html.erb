@@ -1,0 +1,29 @@
+<h1>Apply for Leave </h1>
+<%= form_for :leave, url: leave_index_path  do |f| %>
+  <p style='padding-left:60px;'>
+    <%= f.label :leave_Type %><br>
+    <%= f.text_field :ltype %>
+  </p>
+ 
+  <p style='padding-left:60px;'>
+    <%= f.label :Date_From %><br>
+    <%= f.text_area :datefrom %>
+  </p>
+  <p style='padding-left:60px;'>
+    <%= f.label :Date_To %><br>
+    <%= f.text_area :dateto %>
+  </p>
+ <p style='padding-left:60px;'>
+    <%= f.label :No_of_Days %><br>
+    <%= f.text_area :days %>
+  </p>
+   <p  style='padding-left:60px;'>
+    <%= f.label :Reason %><br>
+    <%= f.text_area :reason %>
+  </p>
+
+  <p style='padding-left:60px;'>
+    <%= f.submit %>
+  </p>
+  <%#= link_to "My Leavs", leave_show_path, :class => 'navbar-link'  %> |
+<% end %>
